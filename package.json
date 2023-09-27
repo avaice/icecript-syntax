@@ -2,6 +2,8 @@
   "name": "icecript-syntax",
   "displayName": "Icecript Syntax",
   "description": "Provides icecript syntax highlight for VS Code",
+  "publisher": "avaice",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:avaice/icecript-syntax.git"
