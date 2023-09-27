@@ -5,4 +5,5 @@ icecript の Code Hightlight Syntax を VSCode で有効にするための拡張
 Playground: https://avaice.github.io/icecript/
 
 icecript GitHub: https://github.com/avaice/icecript
+
 icecript-syntax GitHub: https://github.com/avaice/icecript-syntax
