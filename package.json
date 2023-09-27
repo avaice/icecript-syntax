@@ -2,6 +2,10 @@
   "name": "icecript-syntax",
   "displayName": "Icecript Syntax",
   "description": "Provides icecript syntax highlight for VS Code",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:avaice/icecript-syntax.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.81.0"
@@ -10,16 +14,25 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "icecript",
-      "aliases": ["Icecript", "icecript"],
-      "extensions": [".ic"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "icecript",
-      "scopeName": "source.ic",
-      "path": "./syntaxes/icecript.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "icecript",
+        "aliases": [
+          "Icecript",
+          "icecript"
+        ],
+        "extensions": [
+          ".ic"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "icecript",
+        "scopeName": "source.ic",
+        "path": "./syntaxes/icecript.tmLanguage.json"
+      }
+    ]
   }
 }
